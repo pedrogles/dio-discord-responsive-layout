@@ -211,3 +211,13 @@ main .main-section .section-text-wrapper .section-paragraph {
 #footer .discord-icon {
     width: 16.2rem;
 }
+
+@media (min-width: 1024px) {
+    #footer {
+        height: 16rem;
+    }
+
+    #footer .discord-icon {
+        width: 22rem;
+    }
+}
