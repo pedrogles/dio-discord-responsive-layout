@@ -46,6 +46,7 @@
     text-align: center;
     border-radius: 2.8rem;
     padding: 1.5rem 2.4rem;
+    cursor: pointer;
 }
 
 #header .header-buttons-wrapper .button:last-child {
@@ -56,6 +57,37 @@
     text-align: center;
     border-radius: 2.8rem;
     padding: 1.5rem 2.4rem;
+    cursor: pointer;
+}
+
+@media (min-width: 670px) {
+    #header {
+        align-items: center;
+    }
+
+    #header .header-title {
+        font-size: 5.6rem;
+        max-width: 31.3rem;
+        text-align: center;
+    }
+
+    #header .header-paragraph {
+        text-align: center;
+        max-width: 75.7rem;
+    }
+
+    #header .header-buttons-wrapper {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #header .header-buttons-wrapper .button:first-child {
+        max-width: 20.8rem;
+    }
+
+    #header .header-buttons-wrapper .button:last-child {
+        max-width: 29.6rem;
+    }
 }
 
 /* Main */
