@@ -118,3 +118,15 @@ main .main-section .section-text-wrapper .section-paragraph {
 }
 
 /* Footer */
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14rem;
+    width: 100%;
+    background-color: #23272A;
+}
+
+#footer .discord-icon {
+    width: 16.2rem;
+}
