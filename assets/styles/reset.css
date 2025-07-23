@@ -10,10 +10,9 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   line-height: 1.6;
-  background-color: #F9F9F9;
   color: #121212;
   min-height: 100vh;
 }
